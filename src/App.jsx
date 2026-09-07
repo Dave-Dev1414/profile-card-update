@@ -1,6 +1,8 @@
 import { avatarImage, coverImage, profilePicture } from "./assets"
 import FirstCard from "./components/FirstCard"
 import ProfileCard from "./components/ProfileCard"
+import Wallet from "./components/wallet";
+
 
 function App() {
 
@@ -51,12 +53,14 @@ function App() {
           hour={profilecard.hour}
           period={profilecard.period}
           dark={profilecard.dark}
+
+          
         />
       ))}
 
       <FirstCard />
 
-
+<Wallet/>
     </>
   )
 }
