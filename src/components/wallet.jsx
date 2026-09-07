@@ -26,7 +26,7 @@ function Wallet() {
 
           <p className="balance-label">YOUR BALANCE</p>
 
-          <h1>$52,002.50</h1>
+          <h1>$1,286,492.06</h1>
 
           <div className="avatars">
             {avatars.map((avatar, index) => (
@@ -48,11 +48,11 @@ function Wallet() {
             />
 
             <div>
-              <strong>Dribbble Pro</strong>
+              <strong>David</strong>
               <p>Jan 17 • 20:12</p>
             </div>
 
-            <strong className="amount">$60.00</strong>
+            <strong className="amount">$5732.91</strong>
           </div>
         </section>
 
